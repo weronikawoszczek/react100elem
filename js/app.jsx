@@ -88,7 +88,7 @@ var app = app || {};
 		render: function () {
 			var footer;
 			var main;
-			var todos = [...Array(10000)].map( (_, i) => ({ id: i, title:'new task' + ' ' + i, completed: i % 3 }));
+			var todos = [...Array(5000)].map( (_, i) => ({ id: i, title:'new task' + ' ' + i, completed: i % 3 }));
 
 
 			var shownTodos = todos.filter(function (todo) {
